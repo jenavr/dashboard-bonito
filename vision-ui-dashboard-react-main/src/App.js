@@ -47,6 +47,9 @@ import routes from "routes";
 
 // Vision UI Dashboard React contexts
 import { useVisionUIController, setMiniSidenav, setOpenConfigurator } from "context";
+import MapView from "components/mapa/MapViews";
+import '../src/components/leaf.css';
+
 
 export default function App() {
   const [controller, dispatch] = useVisionUIController();
@@ -151,7 +154,7 @@ export default function App() {
           </>
         )}
         {layout === "vr" && <Configurator />}
-        <Switch>
+        <Switch>        
           {getRoutes(routes)}
           <Redirect from="*" to="/dashboard" />
         </Switch>
@@ -178,6 +181,9 @@ export default function App() {
       <Switch>
         {getRoutes(routes)}
         <Redirect from="*" to="/dashboard" />
+        <Route path="/dashboard2">
+            <MapView/>
+        </Route>
       </Switch>
     </ThemeProvider>
   );

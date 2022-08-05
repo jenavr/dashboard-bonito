@@ -59,24 +59,25 @@ import { lineChartDataDashboard } from "layouts/dashboard/data/lineChartData";
 import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptions";
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
-import Home from "components/mapa/Home";
+import Home1 from "components/mapa/Home1";
+
 
 //Mapa
 
 
-function Dashboard() {
+function Dashboard2() {
   const { gradients } = colors;
   const { cardContent } = gradients;
 
   return (
     <DashboardLayout>
       <DashboardNavbar />
-      <Home />
-      <VuiBox py={15}>
+      <Home1 />
+      <VuiBox py={30}>
           
       </VuiBox>
     </DashboardLayout>
   );
 }
 
-export default Dashboard;
+export default Dashboard2;

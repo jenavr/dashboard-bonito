@@ -16,23 +16,9 @@
 
 */
 
-// Vision UI Dashboard React base styles
-import colors from "assets/theme/base/colors";
-
-// Vision UI Dashboard React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
-
-const { black: dark } = colors;
-
-export default {
-  styleOverrides: {
-    root: {
-      margin: `${pxToRem(48)} 0`,
-      padding: `0 ${pxToRem(12)}`,
-
-      "&.MuiPaper-root": {
-        backgroundColor: dark.main,
-      },
-    },
+export const barChartDataDashboard = [
+  {
+    name: "Sales",
+    data: [330, 250, 110, 300, 490, 350, 270, 130, 425],
   },
-};
+];

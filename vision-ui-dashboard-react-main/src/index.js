@@ -20,6 +20,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
+import './index.css';
+import '../src/components/leaf.css';
 
 // Vision UI Dashboard React Context Provider
 import { VisionUIControllerProvider } from "context";

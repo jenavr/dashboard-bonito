@@ -16,23 +16,13 @@
 
 */
 
-// Vision UI Dashboard React base styles
-import colors from "assets/theme/base/colors";
-
-// Vision UI Dashboard React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
-
-const { black: dark } = colors;
-
-export default {
-  styleOverrides: {
-    root: {
-      margin: `${pxToRem(48)} 0`,
-      padding: `0 ${pxToRem(12)}`,
-
-      "&.MuiPaper-root": {
-        backgroundColor: dark.main,
-      },
-    },
+export const lineChartDataDashboard = [
+  {
+    name: "Mobile apps",
+    data: [500, 250, 300, 220, 500, 250, 300, 230, 300, 350, 250, 400],
   },
-};
+  {
+    name: "Websites",
+    data: [200, 230, 300, 350, 370, 420, 550, 350, 400, 500, 330, 550],
+  },
+];
