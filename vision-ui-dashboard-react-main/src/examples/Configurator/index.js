@@ -103,10 +103,10 @@ function Configurator() {
       >
         <VuiBox>
           <VuiTypography color="white" variant="h5" fontWeight="bold">
-            Vision UI Configurator
+           Configuración de vista
           </VuiTypography>
           <VuiTypography variant="body2" color="white" fontWeight="bold">
-            See our dashboard options.
+            Mira nuestras opciones de configuración.
           </VuiTypography>
         </VuiBox>
 
@@ -130,7 +130,7 @@ function Configurator() {
       <VuiBox pt={1.25} pb={3} px={3}>
         <VuiBox>
           <VuiTypography variant="h6" color="white">
-            Sidenav Colors
+            Colores de Barra Lateral
           </VuiTypography>
 
           <VuiBox mb={0.5}>
@@ -166,10 +166,10 @@ function Configurator() {
         {window.innerWidth >= 1440 && (
           <VuiBox mt={3} lineHeight={1}>
             <VuiTypography variant="h6" color="white">
-              Sidenav Type
+              Estilo de barra lateral
             </VuiTypography>
             <VuiTypography variant="button" color="text" fontWeight="regular">
-              Choose between 2 different sidenav types.
+             Elige el estilo que más te guste.
             </VuiTypography>
 
             <VuiBox
@@ -189,7 +189,7 @@ function Configurator() {
                   ...sidenavTypeButtonsStyles,
                 }}
               >
-                Transparent
+                Transparente
               </VuiButton>
               <VuiButton
                 color="info"
@@ -199,7 +199,7 @@ function Configurator() {
                 fullWidth
                 sx={sidenavTypeButtonsStyles}
               >
-                Opaque
+                Opaco
               </VuiButton>
             </VuiBox>
           </VuiBox>
@@ -207,7 +207,7 @@ function Configurator() {
 
         <VuiBox mt={3} mb={2} lineHeight={1}>
           <VuiTypography variant="h6" color="white">
-            Navbar Fixed
+            Fijar barra de navegación
           </VuiTypography>
 
           {/* <Switch checked={fixedNavbar} onChange={handleFixedNavbar} color="info" /> */}
@@ -243,20 +243,12 @@ function Configurator() {
           </VuiButton>
         </VuiBox>
         <VuiBox display="flex" justifyContent="center">
-          <GitHubButton
-            href="https://github.com/creativetimofficial/vision-ui-dashboard-react"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star creativetimofficial/vision-ui-dashboard-react on GitHub"
-          >
-            Star
-          </GitHubButton>
+          
         </VuiBox>
         <VuiBox mt={3} textAlign="center">
           <VuiBox mb={0.5}>
             <VuiTypography variant="h6" color="white">
-              Thank you for sharing!
+              Gracias por compartir!
             </VuiTypography>
           </VuiBox>
 
@@ -264,7 +256,7 @@ function Configurator() {
             <VuiBox mr={1.5}>
               <VuiButton
                 component={Link}
-                href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/vision-ui-dashboard-react&text=Check%20Vision%20UI%20Dashboard%20made%20by%20@simmmple_web%20and%20@CreativeTim%20#webdesign%20#dashboard%20#react"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="noreferrer"
                 color="dark"
@@ -275,13 +267,13 @@ function Configurator() {
             </VuiBox>
             <VuiButton
               component={Link}
-              href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/vision-ui-dashboard-react"
+              href="https://www.facebook.com/"
               target="_blank"
               rel="noreferrer"
               color="dark"
             >
               <FacebookIcon />
-              &nbsp; Share
+              &nbsp; Facebook
             </VuiButton>
           </VuiBox>
         </VuiBox>

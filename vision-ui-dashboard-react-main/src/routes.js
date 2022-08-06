@@ -49,7 +49,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "Formas de pago",
     key: "billing",
     route: "/billing",
     icon: <BsCreditCardFill size="15px" color="inherit" />,

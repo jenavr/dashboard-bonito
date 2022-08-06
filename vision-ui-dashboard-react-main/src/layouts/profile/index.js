@@ -103,7 +103,7 @@ function Overview() {
               info={{
                 fullName: "Mark Johnson",
                 mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
+                email: "mark@gmail.com",
                 location: "United States",
               }}
               social={[

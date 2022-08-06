@@ -25,19 +25,9 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
 
-// Images
+// Images import example
 import AdobeXD from "examples/Icons/AdobeXD";
-import Atlassian from "examples/Icons/Atlassian";
-import Slack from "examples/Icons/Slack";
-import Spotify from "examples/Icons/Spotify";
-import Jira from "examples/Icons/Jira";
-import Invision from "examples/Icons/Invision";
-import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
-import logoInvesion from "assets/images/small-logos/logo-invision.svg";
-import logoJira from "assets/images/small-logos/logo-jira.svg";
-import logoSlack from "assets/images/small-logos/logo-slack.svg";
-import logoWebDev from "assets/images/small-logos/logo-webdev.svg";
-import logoXD from "assets/images/small-logos/logo-xd.svg";
+
 
 function Completion({ value, color }) {
   return (
@@ -60,122 +50,117 @@ const action = (
 
 export default {
   columns: [
-    { name: "project", align: "left" },
-    { name: "budget", align: "left" },
-    { name: "status", align: "left" },
-    { name: "completion", align: "center" },
+    { name: "consulta", align: "left" },
+    { name: "precio", align: "left" },
+    { name: "estado", align: "left" },
+    { name: "progreso", align: "center" },
     { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      project: (
+      consulta: (
         <VuiBox display="flex" alignItems="center">
-          <AdobeXD size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Chakra Vision UI Version
+           Consulta por resfriado
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      precio: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          $14,000
+          $500 MXN
         </VuiTypography>
       ),
-      status: (
+      estado: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Working
+          En proceso… 
         </VuiTypography>
       ),
-      completion: <Completion value={60} color="info" />,
+      progreso: <Completion value={60} color="info" />,
       action,
     },
     {
-      project: (
+      consulta: (
         <VuiBox display="flex" alignItems="center">
-          <Atlassian size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Add Progress Track
+          Consulta por dolor de estómago
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      precio: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          $3,000
+          $300 MXN
         </VuiTypography>
       ),
-      status: (
+      estado: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Done
+          Completado
         </VuiTypography>
       ),
-      completion: <Completion value={100} color="info" />,
+      progreso: <Completion value={100} color="info" />,
       action,
     },
     {
-      project: (
+      consulta: (
         <VuiBox display="flex" alignItems="center">
-          <Slack size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Fix Platform Errors
+           Consulta por lesión en el gimnasio
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      precio: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Not set
+          $500 MXN
         </VuiTypography>
       ),
-      status: (
+      estado: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Canceled
+          En proceso…
         </VuiTypography>
       ),
-      completion: <Completion value={30} color="info" />,
+      progreso: <Completion value={30} color="info" />,
       action,
     },
     {
-      project: (
+      consulta: (
         <VuiBox display="flex" alignItems="center">
-          <Spotify size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Launch our Mobile App
+            Consulta por revisión general
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      precio: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          $32,000
+          $900 MXN
         </VuiTypography>
       ),
-      status: (
+      estado: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Canceled
+          Cancelado
         </VuiTypography>
       ),
-      completion: <Completion value={0} color="info" />,
+      progreso: <Completion value={0} color="info" />,
       action,
     },
     {
-      project: (
+      consulta: (
         <VuiBox display="flex" alignItems="center">
-          <Jira size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Add the New Pricing Page
+            Revisión de estudios
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      precio: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          $2,300
+          $800 MXN
         </VuiTypography>
       ),
-      status: (
+      estado: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
-          Done
+          Completado
         </VuiTypography>
       ),
-      completion: <Completion value={100} color="info" />,
+      progreso: <Completion value={100} color="info" />,
       action,
     },
   ],

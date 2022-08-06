@@ -64,18 +64,18 @@ function Function({ job, org }) {
 
 export default {
   columns: [
-    { name: "author", align: "left" },
-    { name: "function", align: "left" },
-    { name: "status", align: "center" },
-    { name: "employed", align: "center" },
+    { name: "nombre", align: "left" },
+    { name: "especialidad", align: "left" },
+    { name: "estado", align: "center" },
+    { name: "experiencia", align: "center" },
     { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      author: <Author image={avatar4} name="Esthera Jackson" email="esthera@simmmple.com" />,
-      function: <Function job="Manager" org="Organization" />,
-      status: (
+      nombre: <Author image={avatar4} name="Esthera Jackson" email="esthera@simmmple.com" />,
+      especialidad: <Function job="Cirugía General" org="Hospital Central Universitario" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Online"
@@ -90,7 +90,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           23/04/18
         </VuiTypography>
@@ -102,9 +102,9 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar2} name="Alexa Liras" email="alexa@simmmple.com" />,
-      function: <Function job="Programator" org="Developer" />,
-      status: (
+      nombre: <Author image={avatar1} name="Alexa Liras" email="alexa@simmmple.com" />,
+      especialidad: <Function job="Cirugía Pediátrica" org="Hospital Ángeles Chihuahua" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Offline"
@@ -118,7 +118,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           11/01/19
         </VuiTypography>
@@ -130,9 +130,9 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar3} name="Laurent Michael" email="laurent@simmmple.com" />,
-      function: <Function job="Executive" org="Projects" />,
-      status: (
+      nombre: <Author image={avatar3} name="Laurent Michael" email="laurent@simmmple.com" />,
+      especialidad: <Function job="Dermatología" org="Clínica Chihuahua" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Online"
@@ -147,7 +147,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           19/09/17
         </VuiTypography>
@@ -159,9 +159,9 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar1} name="Freduardo Hill" email="freduardo@simmmple.com" />,
-      function: <Function job="Programator" org="Developer" />,
-      status: (
+      nombre: <Author image={avatar2} name="Freduardo Hill" email="freduardo@simmmple.com" />,
+      especialidad: <Function job="Gastroenterología" org="Consultorio Propio" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Online"
@@ -176,7 +176,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           24/12/08
         </VuiTypography>
@@ -188,9 +188,9 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar5} name="Daniel Thomas" email="daniel@simmmple.com" />,
-      function: <Function job="Manager" org="Executive" />,
-      status: (
+      nombre: <Author image={avatar5} name="Daniel Thomas" email="daniel@simmmple.com" />,
+      especialidad: <Function job="Ginecología y Obstetricia" org="Hospital Star Médica" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Offline"
@@ -204,7 +204,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           04/10/21
         </VuiTypography>
@@ -216,9 +216,9 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar6} name="Mark Wilson" email="mark@simmmple.com" />,
-      function: <Function job="Programtor" org="Developer" />,
-      status: (
+      nombre: <Author image={avatar6} name="Mark Wilson" email="mark@simmmple.com" />,
+      especialidad: <Function job="Psiquiatría General" org="Clínica de la Mujer de Chihuahua" />,
+      estado: (
         <VuiBadge
           variant="standard"
           badgeContent="Offline"
@@ -232,7 +232,7 @@ export default {
           })}
         />
       ),
-      employed: (
+      experiencia: (
         <VuiTypography variant="caption" color="white" fontWeight="medium">
           14/09/20
         </VuiTypography>

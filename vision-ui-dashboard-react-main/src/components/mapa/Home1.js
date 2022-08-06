@@ -12,8 +12,14 @@ const Home1 = () => {
       <h1>Bienvenido</h1>
         <div className="wrapper">
           <img src= {pic} />
-      </div>
+        </div>
+        <div>
+          
+        </div>
+       
+
     </div>
+    
   );
 };
 

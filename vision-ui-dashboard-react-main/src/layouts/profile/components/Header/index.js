@@ -130,7 +130,7 @@ function Header() {
                 Mark Johnson
               </VuiTypography>
               <VuiTypography variant="button" color="text" fontWeight="regular">
-                mark@simmmple.com
+                mark@gmail.com
               </VuiTypography>
             </VuiBox>
           </Grid>
