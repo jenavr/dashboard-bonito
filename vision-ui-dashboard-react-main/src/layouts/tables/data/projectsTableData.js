@@ -83,7 +83,7 @@ export default {
       consulta: (
         <VuiBox display="flex" alignItems="center">
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-          Consulta por dolor de estómago
+          Colonoscopia semanal
           </VuiTypography>
         </VuiBox>
       ),

@@ -85,7 +85,7 @@ function Bill({ name, company, email, vat, noGutter }) {
         </VuiBox>
         <VuiBox mb={1} lineHeight={0}>
           <VuiTypography variant="caption" color="text">
-            Company Name:&nbsp;&nbsp;&nbsp;
+              Nombre de la compañía:&nbsp;&nbsp;&nbsp;
             <VuiTypography
               variant="caption"
               color="text"
@@ -98,14 +98,14 @@ function Bill({ name, company, email, vat, noGutter }) {
         </VuiBox>
         <VuiBox mb={1} lineHeight={0}>
           <VuiTypography variant="caption" color="text">
-            Email Address:&nbsp;&nbsp;&nbsp;
+            Email:&nbsp;&nbsp;&nbsp;
             <VuiTypography variant="caption" fontWeight="regular" color="text">
               {email}
             </VuiTypography>
           </VuiTypography>
         </VuiBox>
         <VuiTypography variant="caption" color="text">
-          VAT Number:&nbsp;&nbsp;&nbsp;
+            Número de cuenta:&nbsp;&nbsp;&nbsp;
           <VuiTypography variant="caption" fontWeight="regular" color="text">
             {vat}
           </VuiTypography>

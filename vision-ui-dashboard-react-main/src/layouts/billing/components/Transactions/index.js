@@ -53,7 +53,7 @@ function Transactions() {
             },
           })}
         >
-          Your Transaction&apos;s
+          Tus Transacciones
         </VuiTypography>
         <VuiBox display="flex" alignItems="flex-start">
           <VuiBox color="white" mr="6px" lineHeight={0}>
@@ -62,7 +62,7 @@ function Transactions() {
             </Icon>
           </VuiBox>
           <VuiTypography variant="button" color="text" fontWeight="regular">
-            23 - 30 March 2020
+            23 - 30 Marzo 2020
           </VuiTypography>
         </VuiBox>
       </VuiBox>
@@ -74,7 +74,7 @@ function Transactions() {
             fontWeight="medium"
             textTransform="uppercase"
           >
-            newest
+            actual
           </VuiTypography>
         </VuiBox>
         <VuiBox
@@ -88,15 +88,15 @@ function Transactions() {
           <Transaction
             color="error"
             icon="arrow_downward"
-            name="Netflix"
-            description="27 March 2020, at 12:30 PM"
+            name="Reembolso"
+            description="27 Marzo 2020, at 12:30 PM"
             value="- $ 2,500"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="Apple"
-            description="27 March 2020, at 04:30 AM"
+            name="Pago"
+            description="27 Marzo 2020, at 04:30 AM"
             value="+ $ 2,000"
           />
         </VuiBox>
@@ -107,7 +107,7 @@ function Transactions() {
             fontWeight="medium"
             textTransform="uppercase"
           >
-            yesterday
+            Ayer
           </VuiTypography>
         </VuiBox>
         <VuiBox
@@ -121,30 +121,30 @@ function Transactions() {
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="Stripe"
-            description="26 March 2020, at 13:45 PM"
+            name="Pago"
+            description="26 Marzo 2020, at 13:45 PM"
             value="+ $ 750"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="HubSpot"
-            description="26 March 2020, at 12:30 PM"
+            name="Pago"
+            description="26 Marzo 2020, at 12:30 PM"
             value="+ $ 1,000"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="HubSpot"
-            description="26 March 2020, at 08:30 AM"
+            name="Pago"
+            description="26 Marzo 2020, at 08:30 AM"
             value="+ $ 2,500"
           />
           <Transaction
             color="text"
             icon="priority_high"
-            name="Webflow"
-            description="26 March 2020, at 05:00 AM"
-            value="Pending"
+            name="Pago"
+            description="26 Marzo 2020, at 05:00 AM"
+            value="Pendiente"
           />
         </VuiBox>
       </VuiBox>

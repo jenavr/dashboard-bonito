@@ -31,27 +31,27 @@ function BillingInformation() {
     <Card id="delete-account">
       <VuiBox>
         <VuiTypography variant="lg" color="white" fontWeight="bold">
-          Billing Information
+          Cuentas Registradas
         </VuiTypography>
       </VuiBox>
       <VuiBox>
         <VuiBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
           <Bill
-            name="oliver liam"
-            company="viking burrito"
-            email="oliver@burrito.com"
+            name="Luis López"
+            company="Hospital Central Universitario"
+            email="oliver@HCU.com"
             vat="FRB1235476"
           />
           <Bill
-            name="lucas harper"
-            company="stone tech zone"
-            email="lucas@stone-tech.com"
+            name="lucrecio González"
+            company="Hospital Ángeles Chihuahua"
+            email="lucas@HACH.com"
             vat="FRB1235476"
           />
           <Bill
-            name="ethan james"
-            company="fiber notion"
-            email="ethan@fiber.com"
+            name="Kevin Moreno"
+            company="CHRISTUS MUGUERZA"
+            email="ethan@cm.com"
             vat="FRB1235476"
             noGutter
           />

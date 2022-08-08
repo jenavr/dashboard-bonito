@@ -218,29 +218,9 @@ function Configurator() {
 
         <VuiBox mt={3} mb={2}>
           <VuiBox mb={2}>
-            <VuiButton
-              component={Link}
-              href="https://www.creative-tim.com/product/vision-ui-dashboard-react"
-              target="_blank"
-              rel="noreferrer"
-              color="info"
-              variant="contained"
-              fullWidth
-            >
-              FREE DOWNLOAD
-            </VuiButton>
+
           </VuiBox>
-          <VuiButton
-            component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard/"
-            target="_blank"
-            rel="noreferrer"
-            color="info"
-            variant="outlined"
-            fullWidth
-          >
-            VIEW DOCUMENTATION
-          </VuiButton>
+          
         </VuiBox>
         <VuiBox display="flex" justifyContent="center">
           

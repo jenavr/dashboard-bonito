@@ -11,11 +11,10 @@ const Home1 = () => {
     <div>
       <h1>Bienvenido</h1>
         <div className="wrapper">
-          <img src= {pic} />
-        </div>
-        <div>
+          <img src=  {pic} class="fondo" />
           
         </div>
+        
        
 
     </div>
