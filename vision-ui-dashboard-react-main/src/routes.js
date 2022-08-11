@@ -13,7 +13,8 @@ import { IoHome, IoRocketSharp } from "react-icons/io5";
 import { IoIosDocument } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IoBuild } from "react-icons/io5";
-import { BsCreditCardFill } from "react-icons/bs";
+import { BsCreditCardFill, BsFillCameraVideoFill } from "react-icons/bs";
+
 import { IoFolder } from "react-icons/io5";
 import { IoMap } from "react-icons/io5";
 import { IoMedical } from "react-icons/io5";
@@ -62,7 +63,7 @@ const routes = [
     name: "Video Chat",
     key: "videoChat",
     route: "/videoChat",
-    icon: <BsCreditCardFill size="15px" color="inherit" />,
+    icon: <BsFillCameraVideoFill size="15px" color="inherit" />,
     component: RTL,
     noCollapse: true,
   },

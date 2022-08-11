@@ -65,12 +65,7 @@ function RTL() {
   const { cardContent } = gradients;
   const [, dispatch] = useVisionUIController();
 
-  // Changing the direction to rtl
-  useEffect(() => {
-    setDirection(dispatch, "rtl");
-
-    return () => setDirection(dispatch, "ltr");
-  }, []);
+  
 
   return (
     <DashboardLayout>
