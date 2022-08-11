@@ -14,6 +14,7 @@
 		"url": "git+https://github.com/creativetimofficial/vision-ui-dashboard-react.git"
 	},
 	"dependencies": {
+		"@daily-co/daily-js": "^0.29.0",
 		"@emotion/cache": "11.4.0",
 		"@emotion/react": "^11.9.3",
 		"@emotion/styled": "^11.9.3",
@@ -25,6 +26,7 @@
 		"@testing-library/react": "11.1.0",
 		"@testing-library/user-event": "12.1.10",
 		"apexcharts": "^3.30.0",
+		"axios": "^0.27.2",
 		"chroma-js": "2.1.2",
 		"eslint": "^7.11.0",
 		"leaflet": "^1.8.0",
@@ -38,6 +40,8 @@
 		"react-icons": "^4.3.1",
 		"react-router-dom": "5.2.0",
 		"react-scripts": "^4.0.3",
+		"react-speech": "^1.0.2",
+		"react-speech-recognition": "^3.9.1",
 		"stylis": "4.0.10",
 		"stylis-plugin-rtl": "2.1.0",
 		"uuid": "8.3.2",

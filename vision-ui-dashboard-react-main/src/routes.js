@@ -7,6 +7,7 @@ import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 
+
 // Vision UI Dashboard React icons
 import { IoHome, IoRocketSharp } from "react-icons/io5";
 import { IoIosDocument } from "react-icons/io";
@@ -54,6 +55,15 @@ const routes = [
     route: "/billing",
     icon: <BsCreditCardFill size="15px" color="inherit" />,
     component: Billing,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Video Chat",
+    key: "videoChat",
+    route: "/videoChat",
+    icon: <BsCreditCardFill size="15px" color="inherit" />,
+    component: RTL,
     noCollapse: true,
   },
  
