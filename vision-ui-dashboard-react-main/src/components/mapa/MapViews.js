@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Map, TileLayer } from "react-leaflet";
-import Markers from "./VenueMarkers";
-import "leaflet/dist/leaflet.css";
+
+
 
 /*Datos para mostrar los marcadores*/
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import MapView from "./MapViews";
+
 import pic from './Citas-Medicas.png'
 
 import './Consultorios2.css';
